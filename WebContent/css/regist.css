@@ -1,0 +1,51 @@
+.onfocus {
+	border: 1px solid #017DB9;
+}
+.wrong {
+	border: 1px solid #ff5b5b;
+}
+label {
+	display: inline-block;
+	text-align: right;
+	width: 60px;
+	margin-right: 10px;
+}
+input,textarea {
+	text-align: left;
+	padding: 0.1em 0.3em;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid rgb(182,182,182);
+}
+textarea {
+	height: 8em;
+	width: 18em;
+	resize: none;
+}
+input[type="text"],input[type="password"],input[type='email'] {
+	height: 2em;
+	width: 18em;
+}
+/******************main********************/
+div.main-content {
+	height: 370px;
+	padding: 60px 50px;
+}
+div.message,div.prompt {
+	float: left;
+}
+div.message {
+	margin-left: 250px;
+}
+div.prompt {
+	margin-left: 10px;
+	text-align: left;
+	color: #ff5b5b;
+}
+div.message div.control-group,div.prompt div {
+	height: 50px;
+}
+div.control-group * {
+	vertical-align: middle;
+}
+

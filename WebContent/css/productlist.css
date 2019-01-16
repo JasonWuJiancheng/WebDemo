@@ -1,0 +1,34 @@
+div.plist {
+	padding: 50px 0 24px 52px;
+}
+
+div.pages {
+	float: right;
+	margin-right: 50px;
+}
+
+div.product {
+	width: 260px;
+	border: 1px lightgray solid;
+	margin-right: 30px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+div.product .p-img {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+.p-img img {
+	width: 200px;
+	background-size: cover;
+}
+
+div.p-info {
+	padding: 10px;
+}
+
+div.pricedetail {
+	color: #e3101e;
+}

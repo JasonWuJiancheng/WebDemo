@@ -1,0 +1,18 @@
+div.main-content {
+    height: 530px;
+    padding: 20px 50px;
+}
+/**********wrap**********/
+div.wrap h1 {
+	font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+}
+/*paragraph*/
+div.paragraph {
+	margin-top: 20px;
+	text-align: left;
+}
+div.paragraph .indent {
+	text-indent: 2em;
+}

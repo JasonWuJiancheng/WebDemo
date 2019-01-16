@@ -1,0 +1,73 @@
+.cart-table td i:hover {
+	color: #0085C3;
+	cursor: pointer;
+}
+td .dis-btn:hover,td .add-btn:hover {
+	color: #0085C3;
+	cursor: pointer;
+}
+.cart-table {
+	width:100%;
+	margin:15px 0;
+	border:0;
+}
+.cart-table th {
+	background-color:#FFFFFF;
+	color:#000000;
+	height: 60px;
+}
+.cart-table,.cart-table th,.cart-table td {
+	font-size:0.95em;
+	text-align:center;
+	padding: 10px 20px;
+	border-collapse:collapse;
+}
+.cart-table th,.cart-table td {
+	border: 1px solid #0085C3;
+	border-width:1px 0 1px 0
+}
+.cart-table tr {
+	border: 1px solid #ffffff;
+	background-color:#ffffff;
+}
+.cart-table thead th {
+	border-top: 0;
+}
+.cart-table td .q-input {
+	height: 30px;
+	width: 35px;
+	text-align: center;
+}
+.cart-table td img {
+	float: left;
+	margin: 0 45px;
+}
+.cart-table td p {
+	float: left;
+}
+
+div.table-footer p {
+	float: left;
+	margin-right: 50px;
+	margin-left: 33px;
+}
+div.table-footer div {
+	float: right;
+	color: white;
+	background-color: #e3101e;
+	padding: 5px 40px;
+	margin-right: 26px;
+	cursor: pointer;
+}
+div.table-footer {
+	margin-top: 40px;
+	background-color: gainsboro;
+}
+div.table-footer p,div.table-footer div {
+	line-height: 40px;
+}
+div.table-footer .chooseNum,div.table-footer .totalPrice {
+	font-size: 22px;
+	color: #e3101e;
+}
+
